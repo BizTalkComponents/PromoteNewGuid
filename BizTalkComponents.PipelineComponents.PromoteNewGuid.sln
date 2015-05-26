@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BizTalkComponents.PipelineComponents.PromoteNewGuid", "Src\PromoteNewGuid\BizTalkComponents.PipelineComponents.PromoteNewGuid.csproj", "{E6EF0C40-8714-4F93-BFCD-7BE38287CF4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BizTalkComponents.PipelineComponents.PromoteNewGuid.Tests.UnitTests", "Tests\UnitTests\BizTalkComponents.PipelineComponents.PromoteNewGuid.Tests.UnitTests.csproj", "{531B8F8D-DD30-4F27-AFD9-1F0A207E4229}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6EF0C40-8714-4F93-BFCD-7BE38287CF4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6EF0C40-8714-4F93-BFCD-7BE38287CF4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6EF0C40-8714-4F93-BFCD-7BE38287CF4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6EF0C40-8714-4F93-BFCD-7BE38287CF4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{531B8F8D-DD30-4F27-AFD9-1F0A207E4229}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{531B8F8D-DD30-4F27-AFD9-1F0A207E4229}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{531B8F8D-DD30-4F27-AFD9-1F0A207E4229}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{531B8F8D-DD30-4F27-AFD9-1F0A207E4229}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

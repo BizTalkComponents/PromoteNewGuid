@@ -4,5 +4,5 @@
 Promotes a new guid to a specified property.
 
 | Parameter          | Description                                             | Type | Validation                        |
-| -------------------|------------- -------------------------------------------|------|-----------------------------------|
+| -------------------|---------------------------------------------------------|------|-----------------------------------|
 |Destination property|The property path of the property to promote the guid to.|String|Required, Format=namespace#property|

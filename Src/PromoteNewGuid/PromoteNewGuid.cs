@@ -40,7 +40,7 @@ namespace BizTalkComponents.PipelineComponents.PromoteNewGuid
         
         public void Load(IPropertyBag propertyBag, int errorLog)
         {
-            DestinationProperty = PropertyBagHelper.ReadPropertyBag<string>(propertyBag, DestinationPropertyPropertyName);
+            DestinationProperty = PropertyBagHelper.ReadPropertyBag(propertyBag, DestinationPropertyPropertyName, DestinationProperty);
         }
 
         public void Save(IPropertyBag propertyBag, bool clearDirty, bool saveAllProperties)
